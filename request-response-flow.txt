@@ -1,0 +1,4 @@
+HTTP Request flow
+Web browser-->Web server-->Front controller-->Controller
+HTTP Response flow
+Controller-->Front controller-->Web server-->Web browser

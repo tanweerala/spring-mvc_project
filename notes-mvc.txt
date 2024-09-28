@@ -1,0 +1,84 @@
+Spring MVC
+==========
+It is a module of spring framework
+It is also a framework
+MVC stands for model view and controller
+MVC is a design pattern
+MVC desgin pattern separates presentation layer of the application from the business and data layer of the application.In case both frontend developer and backend can work independently
+
+Spring MVC framework uses this desgign pattern
+Spring MVC framework is used to build web application
+Main advantage of this framework is separation of prsentation layer from business and data layer
+If presentation layer will be changed then business and data layer will not be affected
+If business layer will be changed then presentation layer will not be affected
+
+What is model?
+--------------
+In Spring MVC application, model is an object and it encapsulates/holds data that will be shown to the user by view/presentation layer/page
+Model is created by front controller
+Data into model is kept by controller
+Data from the model is extracted by view
+
+What is View?
+-------------
+It is page/template
+It accepts input from user and shows output/response to the user
+We can create view by using:
+a)HTML
+b)CSS
+c)JS
+d)JSP or thymeleaf
+View extracts output data from model objects
+
+What is controller?
+-------------------
+It is class defined by back-end developer
+It means you will have to define this class
+In this class you will have to define methods
+These methods are known as request handler
+These methods are mapped with request url(http://localhost:8080/product-management-viewresolver/search-product)
+We will have to map these methods with request url
+These methods will be called by front controller
+(Front controller is a predefined controller)
+
+Role play by controller
+-----------------------
+1)Accepting input sent by user
+2)Calling back-end services(If code is written)
+3)Accepting value returned by back-end services(If code is written)
+4)Storing value/data/response into model object
+...............................
+At the end controller will return view name to the front controller
+An application can have multiple controllers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

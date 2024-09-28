@@ -1,0 +1,16 @@
+Integrating hibernate framework with spring framework
+-----------------------------------------------------
+1)Configure following dependencies into pom.xml file
+ a)spring-orm
+ b)spring-jdbc
+ c)hibernate-core
+ d)hibernate-c3p0
+ e)MySql connector
+2)Configure following two beans/classes into spring-servlet.xml file
+ a)DriverManagerDataSource class
+ b)LocalSessionFactoryBean class
+
+DriverManagerDataSource class
+------------------------------
+Object of this class will hold database connection information
+This object will be dependency of LocalSessionFactoryBean class object

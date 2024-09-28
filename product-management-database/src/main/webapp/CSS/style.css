@@ -1,0 +1,39 @@
+.lkta{
+	margin: auto;
+	font-size:22px;
+	width:90%;
+}
+.dv{
+	text-align: center;
+	margin-top:50px;
+}
+.frmta{
+	margin: auto;
+	margin-top:30px;
+	font-size:20px;
+	border:4px solid silver;
+	background-color: cyan;
+}
+.pa{
+	padding: 15px;
+}
+.tb{
+	font-size:19px;
+	border-radius: 2px;
+}
+.bt{
+	font-size:18px;
+	padding:6px 12px;
+	border-radius: 3px;
+	border: none;
+	cursor: hand;
+	color:white;
+	background-color: blue; 	
+}
+.listta{
+	margin: auto;
+	margin-top:20px;
+	font-size:19px;
+	border-collapse: collapse;
+	width:55%; 
+}

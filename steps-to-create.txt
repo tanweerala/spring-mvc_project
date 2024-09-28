@@ -1,0 +1,10 @@
+Steps to create web application using spring mvc
+------------------------------------------------
+1)Create maven project by choosing web-app archetype
+2)Add spring mvc dependency and other dependencies code into pom.xml file
+3)Edit web.xml file of WEB-INF folder.You can get this folder inside webapp folder.You can get webapp folder inside main folder.You can get main folder inside src folder
+In this file you will have to configure your front controller
+4)Add spring-servlet.xml file into WEB-INF folder.In this file we will configure our application 
+5)Create views/pages.Create view inside webapp folder
+6)Create controller.Ctreate controller inside base package.Create base package also
+etc

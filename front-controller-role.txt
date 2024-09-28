@@ -1,0 +1,17 @@
+Front controller
+----------------
+Every spring mvc project/application has front controller by default
+This controller is provided by spring framework
+It is a servlet
+Class name of this servlet is DispatcherServlet
+Front controller will be called by web server on each request of user/browser
+
+
+Role play by from controller
+----------------------------
+1)Accepting request and data from user
+2)Calling controller
+3)Creating model object
+4)Accepting view name returned by controller
+5)Resolving view
+etc

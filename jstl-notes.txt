@@ -1,0 +1,12 @@
+JSTL(JSP stands tag library)
+----------------------------
+This library has several tags such as
+1)Core tags
+2)Formatting tags
+3)JDBC tags
+4)String tags
+5)XML tags
+
+We can use these tags inside JSP page to make page dynamic without wiriting single line of java code.Here we will use tags of core tag library to define loop,apply condition,create variable,etc
+We will have to add this library into JSP page by using taglib directive
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
